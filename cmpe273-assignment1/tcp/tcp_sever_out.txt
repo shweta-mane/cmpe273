@@ -1,0 +1,15 @@
+Microsoft Windows [Version 10.0.18362.657]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+D:\273\assignment1\tcp>py tcp_server.py
+Server started at port:5000
+Client Connected:A
+received data:A:ping
+Client Connected:B
+received data:B:ping
+received data:A:ping
+received data:B:ping
+received data:A:ping
+received data:B:ping
+received data:B:ping
+received data:B:ping

@@ -1,0 +1,29 @@
+Microsoft Windows [Version 10.0.18362.657]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+D:\273\assignment1\tcp>py tcp_client.py A 10 3
+sending data: ping
+received data: pong
+sending data: ping
+received data: pong
+sending data: ping
+received data: pong
+
+D:\273\assignment1\tcp>
+
+Microsoft Windows [Version 10.0.18362.657]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+D:\273\assignment1\tcp>py tcp_client.py B 10 5
+sending data: ping
+received data: pong
+sending data: ping
+received data: pong
+sending data: ping
+received data: pong
+sending data: ping
+received data: pong
+sending data: ping
+received data: pong
+
+D:\273\assignment1\tcp>

@@ -1,0 +1,13 @@
+D:\273\Assignment3>python test_bloom_filter.py
+'bloom' is probably present!
+'abounds' is probably present!
+'bolster' is probably present!
+'blossom' is probably present!
+'twitter' is definitely not present!
+'accessable' is probably present!
+'facebook' is definitely not present!
+'bonny' is probably present!
+'bonus' is probably present!
+'abundance' is probably present!
+'abundant' is probably present!
+'abound' is probably present!

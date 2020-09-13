@@ -1,0 +1,21 @@
+We can use below formula to calculate the bit array size:
+
+m = - (n * log(p)) / (log(2)^2) 
+
+where,
+
+m = bit array size
+n = number of expected keys to be stored
+p = Probability of desired false positive rate
+
+For one million keys: (Assuming p=0.05)
+
+m = - (1000000 * log(0.05) / (log(2)^2)
+m = 14357134
+
+The no of k hashes can be calculated using below formula:
+
+k = ln(2) * m/n
+k = 9.95 => 10
+
+

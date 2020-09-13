@@ -1,0 +1,37 @@
+PS D:\273\Assignment3> & C:/Users/shwet/AppData/Local/Programs/Python/Python37/python.exe d:/273/Assignment3/test_lru_cache.py
+[0.0860336] fibonacci(0)
+[0.0864325] fibonacci(1)
+[0.0870951] fibonacci(2)
+[cache-hit] fibonacci(1)
+[cache-hit] fibonacci(2)
+[0.0876149] fibonacci(3)
+[0.0880752] fibonacci(4)
+[cache-hit] fibonacci(3)
+[cache-hit] fibonacci(4)
+[0.0882737] fibonacci(5)
+[0.0883409] fibonacci(6)
+fibonacci(6)=8
+
+[0.0885366] get_data(1)
+{'id': 1, 'value': 'Foo Bar - 1'}
+[0.0889065] get_data(2)
+{'id': 2, 'value': 'Foo Bar - 2'}
+[0.089637] get_data(3)
+{'id': 3, 'value': 'Foo Bar - 3'}
+[0.0901156] get_data(4)
+{'id': 4, 'value': 'Foo Bar - 4'}
+[cache-hit] get_data(1)
+{'id': 1, 'value': 'Foo Bar - 1'}
+[cache-hit] get_data(2)
+{'id': 2, 'value': 'Foo Bar - 2'}
+[cache-hit] get_data(3)
+{'id': 3, 'value': 'Foo Bar - 3'}
+[cache-hit] get_data(4)
+{'id': 4, 'value': 'Foo Bar - 4'}
+[0.0997333] get_data(5)
+{'id': 5, 'value': 'Foo Bar - 5'}
+[0.1012776] get_data(6)
+{'id': 6, 'value': 'Foo Bar - 6'}
+Num of function calls:10
+Num of cache misses:6
+PS D:\273\Assignment3>

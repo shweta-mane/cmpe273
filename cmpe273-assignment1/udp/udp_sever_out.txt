@@ -1,0 +1,7 @@
+Microsoft Windows [Version 10.0.18362.657]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+D:\273\assignment1\udp>py udp_server.py
+Server started at port 4000
+Accepting a file upload...
+Upload successfully completed.
